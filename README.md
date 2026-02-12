@@ -13,7 +13,7 @@ To install PythonBridge on Pharo just run the following script in a Pharo Playgr
 ```Smalltalk
 Metacello new
     baseline: 'PythonBridge';
-    repository: 'github://ObjectProfile/PythonBridge/src';
+    repository: 'github://francocz/PythonBridge/src';
     load.
 ``` 
 The first part of the script is responsible of downloading the PythonBridge code and loading it in the image.
